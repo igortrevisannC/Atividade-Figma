@@ -1,23 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Elms+Sans:ital,wght@0,100..900;1,100..900&family=Rouge+Script&display=swap');
 * {
     margin: 0;
     padding: 0;
     text-decoration: none;
     list-style: none;
+    box-sizing: border-box;
+    font-family: "Elms Sans", sans-serif;
 }
 
-header{
-    padding: 4rem;
+header {
+    padding: 2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #ebe68d;
+    background-color: #EFF3CD;
 }
 
-header ul{
+header ul {
     display: flex;
     gap: 1rem;
 }
 
-header img{
-    width: 40%;
+header img {
+    width: 15%;
+
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.section-01 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EFF3CD;
+    padding: 10rem;
+}
+
+.section-01 div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.section-02 {
+    background-color: #61ADA0;
+    padding: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.paragrafo-section2{
+    margin-bottom: 30px;
+}
+
+.container-section2{
+      display: flex;
+    justify-content: center;
+    align-items: flex-start; /* alinha pelo topo */
+    gap: 3rem;
+    text-align: center;
+}
+
+.container-section2 img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    
+}
+
+.conteudos-section02 p{
+    margin-top: 10px;
 }

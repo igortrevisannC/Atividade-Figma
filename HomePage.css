@@ -46,7 +46,7 @@ h1 {
 
 .section-02 {
     background-color: #61ADA0;
-    padding: 2rem;
+    padding: 5rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -54,38 +54,28 @@ h1 {
 }
 
 .paragrafo-section2{
-    margin-bottom: 30px;
+    margin-bottom: 2rem;
+}
+
+.descricao-tenis{
+    width: 100%;
+
 }
 
 .container-section2{
-      display: flex;
-    justify-content: center;
-    align-items: flex-start; /* alinha pelo topo */
-    gap: 2rem;
+    display: flex;
+    gap: 4rem;
+}
+
+.conteudo-section02{
+    width: 100%;
+    height:350px;
+    min-width: 299px;
     text-align: center;
 }
 
-.container-section2 img{
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
-    
-}
-
-.conteudos-section02 p{
-    margin-top: 10px;
-}
-
-.section-03{
-   padding: 12rem 0;
-   background-color: #99B49C;
-}
-
-.caixa-img03 img{
-    width: 50%;
-    height: 300px;
-}
-
-.caixa-paragrafo3{
-    
+.conteudo-section02 img{
+      width: 100%;
+    height: 350px;
+    display: block;
 }

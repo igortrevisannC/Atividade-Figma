@@ -200,6 +200,17 @@ footer{
     margin-bottom: 1.5rem;
 }
 
+
+.whatsapp{
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+}
+
+.whatsapp img{
+    width: 50px ;
+}
+
 @media(max-width:400px){
     .container-section2{
         flex-wrap: wrap;

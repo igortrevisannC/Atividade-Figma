@@ -30,6 +30,10 @@ h1 {
     font-size: 50px;
 }
 
+h2{
+    font-size: 20px;
+}
+
 .section-01 {
     display: flex;
     align-items: center;
@@ -53,12 +57,10 @@ h1 {
     flex-direction: column;
 }
 
-.paragrafo-section2{
-    margin-bottom: 2rem;
-}
 
 .descricao-tenis{
     width: 100%;
+    
 }
 
 .container-section2{
@@ -148,7 +150,7 @@ h1 {
 }
 
 .section-05{
-    background-color: #EFF3CD;
+    background-color: #61ADA0 ;
     padding: 5rem;
     display: flex;
     display: flex;
@@ -158,5 +160,58 @@ h1 {
 
 .container-section05{
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
+    gap: 0.5rem;
+
 }
+
+.input-email{
+    width: 300px;
+}
+
+.input-submit{
+    width: 200px;
+    border-style: none;
+    cursor: pointer;
+}
+
+footer{
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #EFF3CD;
+    gap: 1rem;
+}
+
+.fa-brands{
+    font-size: 30px;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+    margin: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+@media(max-width:400px){
+    .container-section2{
+        flex-wrap: wrap;
+    }
+    
+    .section-03{
+        flex-wrap: wrap;
+    }
+
+    .containers-section04{
+        flex-wrap: wrap ;
+    }
+    
+}
+

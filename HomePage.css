@@ -212,9 +212,9 @@ footer{
 }
 
 @media(max-width:600px){
-   .section-02{
-    flex-wrap: wrap;
-   }
+    .container-section2{
+        flex-wrap: wrap;
+    }
     
     .section-03{
         flex-wrap: wrap;
